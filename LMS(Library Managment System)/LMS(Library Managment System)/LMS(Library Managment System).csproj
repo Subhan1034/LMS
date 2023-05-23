@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{397C9898-17F2-43F8-B32D-A86A86814E40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LMS_Library_Managment_System_</RootNamespace>
+    <AssemblyName>LMS%28Library Managment System%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\LMS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>87B5D8148B6376DFBA5C3E70E08B25FBBC9D775F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LMS%28Library Managment System%29_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.4.0, Culture=neutral, PublicKeyToken=70866663edbc6595, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.0.4\lib\net40\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateaBook .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateaBook .Designer.cs">
+      <DependentUpon>UpdateaBook .cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddaBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddaBook.Designer.cs">
+      <DependentUpon>AddaBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddBookGenre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBookGenre.Designer.cs">
+      <DependentUpon>AddBookGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddGenreDialouge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGenreDialouge.Designer.cs">
+      <DependentUpon>AddGenreDialouge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\Book.cs" />
+    <Compile Include="BL\BorrowBook.cs" />
+    <Compile Include="BL\Genre.cs" />
+    <Compile Include="BL\Student.cs" />
+    <Compile Include="BL\User.cs" />
+    <Compile Include="BorrowedBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowedBooks.Designer.cs">
+      <DependentUpon>BorrowedBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookModule.Designer.cs">
+      <DependentUpon>BookModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCatalouge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchCatalouge.Designer.cs">
+      <DependentUpon>SearchCatalouge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowABook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowABook.Designer.cs">
+      <DependentUpon>BorrowABook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DL\BOOKDL.cs" />
+    <Compile Include="DL\GenreDL.cs" />
+    <Compile Include="DL\StudentDL.cs" />
+    <Compile Include="DL\UserDL.cs" />
+    <Compile Include="LMSWindowStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LMSWindowStudent.Designer.cs">
+      <DependentUpon>LMSWindowStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnaBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnaBook.Designer.cs">
+      <DependentUpon>ReturnaBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserModule.Designer.cs">
+      <DependentUpon>UserModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LMSWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LMSWindow.Designer.cs">
+      <DependentUpon>LMSWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load.Designer.cs">
+      <DependentUpon>Load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignInForm.Designer.cs">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\ThemeColor.cs" />
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateaBook .resx">
+      <DependentUpon>UpdateaBook .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddaBook.resx">
+      <DependentUpon>AddaBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBookGenre.resx">
+      <DependentUpon>AddBookGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddGenreDialouge.resx">
+      <DependentUpon>AddGenreDialouge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowedBooks.resx">
+      <DependentUpon>BorrowedBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookModule.resx">
+      <DependentUpon>BookModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCatalouge.resx">
+      <DependentUpon>SearchCatalouge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowABook.resx">
+      <DependentUpon>BorrowABook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LMSWindowStudent.resx">
+      <DependentUpon>LMSWindowStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnaBook.resx">
+      <DependentUpon>ReturnaBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserModule.resx">
+      <DependentUpon>UserModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LMSWindow.resx">
+      <DependentUpon>LMSWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load.resx">
+      <DependentUpon>Load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignInForm.resx">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="BL\ClassDiagram1.cd" />
+    <None Include="LMS%28Library Managment System%29_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\LMSWindow.datasource" />
+    <None Include="Properties\DataSources\LMS_Library_Managment_System_.Bissuness_Logic.User.datasource" />
+    <None Include="Properties\DataSources\LMS_Library_Managment_System_.DL.UserDL.datasource" />
+    <None Include="Properties\DataSources\LMS_Library_Managment_System_.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\LMS_Library_Managment_System_.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\LMS_Library_Managment_System_.UI.ThemeColor.datasource" />
+    <None Include="Properties\DataSources\Load.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\SignInForm.datasource" />
+    <None Include="Properties\DataSources\UserModule.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

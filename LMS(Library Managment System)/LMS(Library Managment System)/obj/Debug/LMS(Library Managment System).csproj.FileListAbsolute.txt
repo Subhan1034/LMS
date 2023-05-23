@@ -1,0 +1,33 @@
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\LMS(Library Managment System).exe.config
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\LMS(Library Managment System).exe
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\LMS(Library Managment System).pdb
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).csproj.AssemblyReference.cache
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.Properties.Resources.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).csproj.GenerateResource.cache
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).csproj.CoreCompileInputs.cache
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).exe
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).pdb
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.SignInForm.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\Guna.UI2.dll
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).csproj.CopyComplete
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.Load.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.LMSWindow.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.Form1.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.AddBookGenre.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.AddaBook.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.BookModule.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.BORROWABOOK.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.AddGenreDialouge.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.ReturnaBook.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.LMSWindowStudent.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.LogInForm.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.SearchCatalouge.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.BorrowedBooks.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.UpdateaBook.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS_Library_Managment_System_.ChangePassword.resources
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).csproj.SuggestedBindingRedirects.cache
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\LMS(Library Managment System).exe.manifest
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\bin\Debug\LMS(Library Managment System).application
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).exe.manifest
+C:\Users\Subhan\source\repos\LMS(Library Managment System)\LMS(Library Managment System)\obj\Debug\LMS(Library Managment System).application
